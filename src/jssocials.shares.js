@@ -69,14 +69,14 @@
         pocket: {
             label: "Pocket",
             logo: "fab fa-get-pocket",
-            shareUrl: "https://getpocket.com/save?url={url}&title={title}",
+            shareUrl: "https://getpocket.com/save?title={title}&url={url}",
             countUrl: ""
         },
 
         whatsapp: {
             label: "WhatsApp",
             logo: "fab fa-whatsapp",
-            shareUrl: "whatsapp://send?text={url} {text}",
+            shareUrl: "whatsapp://send?text={text} {url} ",
             countUrl: "",
             shareIn: "top"
         },
@@ -84,7 +84,7 @@
         viber: {
             label: "Viber",
             logo: "fab fa-volume-control-phone",
-            shareUrl: "viber://forward?text={url} {text}",
+            shareUrl: "viber://forward?text={text} {url} ",
             countUrl: "",
             shareIn: "top"
         },
@@ -108,7 +108,7 @@
         telegram: {
             label: "Telegram",
             logo: "fab fa-telegram",
-            shareUrl: "tg://msg?text={url} {text}",
+            shareUrl: "tg://msg?text={text} {url}",
             countUrl: "",
             shareIn: "top"
         },
@@ -137,7 +137,7 @@
             countUrl: ""
         },
 
-	sms: {
+    sms: {
             label: "SMS",
             logo: "fa fa-comments-o",
             shareUrl: "sms:{delimiter}body={text} {url}",
