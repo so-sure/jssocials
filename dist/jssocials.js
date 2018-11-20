@@ -1,4 +1,4 @@
-/*! jssocials - v1.5.0 - 2018-10-26
+/*! jssocials - v1.5.0 - 2018-11-20
 * http://js-socials.com
 * Copyright (c) 2018 Artem Tabalin; Licensed MIT */
 (function(window, $, undefined) {
@@ -514,7 +514,7 @@
         whatsapp: {
             label: "WhatsApp",
             logo: "fab fa-whatsapp",
-            shareUrl: "whatsapp://send?text={text} {url}",
+            shareUrl: "whatsapp://send?text={url} {text}",
             countUrl: "",
             shareIn: "top"
         },
