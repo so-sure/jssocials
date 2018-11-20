@@ -529,7 +529,7 @@
 
         messenger: {
             label: "Share",
-            logo: "fab fa-commenting",
+            logo: "fab fa-facebook-messenger",
             shareUrl: "fb-messenger://share?link={url}",
             countUrl: "",
             shareIn: "top"
