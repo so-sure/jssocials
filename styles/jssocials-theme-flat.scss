@@ -15,16 +15,16 @@ $transition: background 200ms ease-in-out, border-color 200ms ease-in-out !defau
 
     .jssocials-share-#{$social} .jssocials-share-link {
         background: $background;
-        background: linear-gradient(90deg, darken($background, 5%), lighten($background, 5%));
+        background: linear-gradient(120deg, darken($background, 2%), lighten($background, 2%));
         &:hover {
             background: darken($background, 10%);
-            background: linear-gradient(90deg, $background, $background);
+            background: linear-gradient(120deg, $background, $background);
         }
     }
 }
 
 .jssocials-share-link {
-    padding: .5em .6em;
+    padding: .6em .7em;
     color: $link-text-color;
     transition: $transition;
     border-radius: $round-size;
