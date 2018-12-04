@@ -24,6 +24,7 @@ $transition: background 200ms ease-in-out, border-color 200ms ease-in-out !defau
     padding: .5em .6em;
     color: $link-text-color;
     transition: $transition;
+    border-radius: $round-size;
 
     &:hover, &:focus, &:active {
         color: $link-text-color;

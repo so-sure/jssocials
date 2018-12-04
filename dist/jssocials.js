@@ -1,4 +1,4 @@
-/*! jssocials - v1.5.0 - 2018-11-20
+/*! jssocials - v1.5.0 - 2018-12-04
 * http://js-socials.com
 * Copyright (c) 2018 Artem Tabalin; Licensed MIT */
 (function(window, $, undefined) {
