@@ -6,7 +6,7 @@
 
         email: {
             label: "E-mail",
-            logo: "fab fa-at",
+            logo: "fab fa-at fw",
             shareUrl: "mailto:{to}?subject={text}&body={url}",
             countUrl: "",
             shareIn: "top"
@@ -14,14 +14,14 @@
 
         twitter: {
             label: "Tweet",
-            logo: "fab fa-twitter",
+            logo: "fab fa-twitter fw",
             shareUrl: "https://twitter.com/share?url={url}&text={text}&via={via}&hashtags={hashtags}",
             countUrl: ""
         },
 
         facebook: {
             label: "Like",
-            logo: "fab fa-facebook",
+            logo: "fab fa-facebook fw",
             shareUrl: "https://facebook.com/sharer/sharer.php?u={url}",
             countUrl: "https://graph.facebook.com/?id={url}",
             getCount: function(data) {
@@ -31,14 +31,14 @@
 
         googleplus: {
             label: "+1",
-            logo: "fab fa-google",
+            logo: "fab fa-google fw",
             shareUrl: "https://plus.google.com/share?url={url}",
             countUrl: ""
         },
 
         linkedin: {
             label: "Share",
-            logo: "fab fa-linkedin",
+            logo: "fab fa-linkedin fw",
             shareUrl: "https://www.linkedin.com/shareArticle?mini=true&url={url}",
             countUrl: "https://www.linkedin.com/countserv/count/share?format=jsonp&url={url}&callback=?",
             getCount: function(data) {
@@ -48,7 +48,7 @@
 
         pinterest: {
             label: "Pin it",
-            logo: "fab fa-pinterest",
+            logo: "fab fa-pinterest fw",
             shareUrl: "https://pinterest.com/pin/create/bookmarklet/?media={media}&url={url}&description={text}",
             countUrl: "https://api.pinterest.com/v1/urls/count.json?&url={url}&callback=?",
             getCount: function(data) {
@@ -58,7 +58,7 @@
 
         stumbleupon: {
             label: "Share",
-            logo: "fab fa-stumbleupon",
+            logo: "fab fa-stumbleupon fw",
             shareUrl: "http://www.stumbleupon.com/submit?url={url}&title={title}",
             countUrl:  "https://cors-anywhere.herokuapp.com/https://www.stumbleupon.com/services/1.01/badge.getinfo?url={url}",
             getCount: function(data) {
@@ -68,14 +68,14 @@
 
         pocket: {
             label: "Pocket",
-            logo: "fab fa-get-pocket",
+            logo: "fab fa-get-pocket fw",
             shareUrl: "https://getpocket.com/save?title={title}&url={url}",
             countUrl: ""
         },
 
         whatsapp: {
             label: "WhatsApp",
-            logo: "fab fa-whatsapp",
+            logo: "fab fa-whatsapp fw",
             shareUrl: "whatsapp://send?text={text} {url} ",
             countUrl: "",
             shareIn: "top"
@@ -83,7 +83,7 @@
 
         viber: {
             label: "Viber",
-            logo: "fab fa-volume-control-phone",
+            logo: "fab fa-volume-control-phone fw",
             shareUrl: "viber://forward?text={text} {url} ",
             countUrl: "",
             shareIn: "top"
@@ -91,7 +91,7 @@
 
         messenger: {
             label: "Share",
-            logo: "fab fa-facebook-messenger",
+            logo: "fab fa-facebook-messenger fw",
             shareUrl: "fb-messenger://share?link={url}",
             countUrl: "",
             shareIn: "top"
@@ -99,7 +99,7 @@
 
         browser_messenger: {
             label: "Share",
-            logo: "fab fa-commenting",
+            logo: "fab fa-commenting fw",
             shareUrl: "https://www.facebook.com/dialog/send?app_id={appid}&link={url}&redirect_uri={redirect}",
             countUrl: "",
             shareIn: "top"
@@ -107,7 +107,7 @@
 
         telegram: {
             label: "Telegram",
-            logo: "fab fa-telegram",
+            logo: "fab fa-telegram fw",
             shareUrl: "tg://msg?text={text} {url}",
             countUrl: "",
             shareIn: "top"
@@ -115,7 +115,7 @@
 
         vkontakte: {
             label: "Like",
-            logo: "fab fa-vk",
+            logo: "fab fa-vk fw",
             shareUrl: "https://vk.com/share.php?url={url}&title={title}&description={text}",
             countUrl: "https://vk.com/share.php?act=count&index=1&url={url}",
             getCount: function(data) {
@@ -125,21 +125,21 @@
 
         line: {
             label: "LINE",
-            logo: "fa fa-comment",
+            logo: "fa fa-comment fw",
             shareUrl: "http://line.me/R/msg/text/?{text} {url}",
             countUrl: ""
         },
 
         rss: {
             label: "RSS",
-            logo: "fa fa-rss",
+            logo: "fa fa-rss fw",
             shareUrl: "/feeds/",
             countUrl: ""
         },
 
     sms: {
             label: "SMS",
-            logo: "fa fa-comments-o",
+            logo: "fa fa-comments-o fw",
             shareUrl: "sms:{delimiter}body={text} {url}",
             delimiter: "?",
             countUrl: "",
