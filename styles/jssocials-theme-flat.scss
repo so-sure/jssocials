@@ -8,6 +8,7 @@ $count-arrow-offset: $count-arrow-size - .1em !default;
 $round-size: .3em !default;
 $transition: background 200ms ease-in-out, border-color 200ms ease-in-out !default;
 
+
 @for $i from 0 to length($share-names) {
     $social: nth($share-names, $i + 1);
     $background: nth($share-colors, $i + 1);
