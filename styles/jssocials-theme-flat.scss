@@ -18,6 +18,7 @@ $transition: background 200ms ease-in-out, border-color 200ms ease-in-out !defau
 
         &:hover {
             background: darken($background, 10%);
+            background: linear-gradient(90deg, $background, $background);
         }
     }
 }
